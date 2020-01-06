@@ -2,15 +2,14 @@ import pygame
 import random
 
 pygame.init()
-pygame.mixer.pre_init(44100, -16, 1, 512)
-pygame.init()
-pygame.mixer.init()
+#pygame.mixer.pre_init(44100, -16, 1, 512)
+#pygame.mixer.init()
 win = pygame.display.set_mode((1400,800))
 pygame.display.set_caption("Cowboy Game")
 
-pygame.mixer.music.load('bgmusic.wav')
-pygame.mixer.music.play(-1)
-
+#pygame.mixer.music.load('bgmusic.wav')        #loads background music if uncommented
+#pygame.mixer.music.play(-1)
+ 
 
 
 
@@ -42,7 +41,7 @@ for i in range(len(run_right)):
        continue
     
 
-class Player():            #NEXT STEP: CHANGE HITBOXES FOR ALL MOVEMENTS
+class Player():           
     
     def __init__(self,x,y,vel):
         self.walkcount = 0
@@ -94,7 +93,7 @@ class Player():            #NEXT STEP: CHANGE HITBOXES FOR ALL MOVEMENTS
             self.width, self.height = 110, 140
             self.hitbox = (self.x+10,self.y,self.width-5,self.height+10)
             
-        #pygame.draw.rect(win,(255,0,0),self.hitbox,2)
+        #pygame.draw.rect(win,(255,0,0),self.hitbox,2)            this shows hitboxes if uncommented
 
     
         
