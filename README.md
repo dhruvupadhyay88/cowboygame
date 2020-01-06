@@ -1,4 +1,4 @@
-# Description
+# Description 
 
 *unfortunately, the pygame library must be installed on your computer if you want to play this game*
 
