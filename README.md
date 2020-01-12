@@ -1,4 +1,4 @@
-# Description 
+# Python 2D Cowboy Game 
 
 *the pygame library must be installed on your computer if you want to play this game*
 
