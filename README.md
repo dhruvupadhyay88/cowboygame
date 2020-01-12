@@ -1,6 +1,6 @@
 # Description 
 
-*unfortunately, the pygame library must be installed on your computer if you want to play this game*
+*the pygame library must be installed on your computer if you want to play this game*
 
 This is a game that i developed over the winter break as an introductory project to learning about the pygame module in python. 
 
